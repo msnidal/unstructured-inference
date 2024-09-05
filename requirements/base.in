@@ -4,7 +4,7 @@ python-multipart
 huggingface-hub
 opencv-python!=4.7.0.68
 onnx
-onnxruntime>=1.17.0
+onnxruntime>=1.16.3
 matplotlib
 torch
 timm

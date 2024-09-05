@@ -75,7 +75,7 @@ numpy==1.26.4
     #   transformers
 onnx==1.16.0
     # via -r requirements/base.in
-onnxruntime==1.18.0
+onnxruntime==1.16.3
     # via -r requirements/base.in
 opencv-python==4.9.0.80
     # via
@@ -152,12 +152,12 @@ timm==1.0.3
     # via -r requirements/base.in
 tokenizers==0.19.1
     # via transformers
-torch==2.3.0
+torch==2.3.0+cpu
     # via
     #   -r requirements/base.in
     #   timm
     #   torchvision
-torchvision==0.18.0
+torchvision==0.18.0+cpu
     # via timm
 tqdm==4.66.4
     # via
